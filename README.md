@@ -1,11 +1,11 @@
-# Feather Client Flutter Plugin
+# Flutter Feather Client Plugin
 
 A Flutter plugin to use the [Feather API](https://feather.id/).
 
 *Note*: This plugin is still under development, and some APIs might not be available yet. [Feedback](https://github.com/bicho19/feather-client-flutter/issues) and [Pull Requests](https://github.com/bicho19/feather-client-flutter/pulls) are most welcome!
 
 
-Have any questions? We're hanging out on [Discord](https://discord.gg/S55amqV) 👋
+Have any questions? Join [Feather Discord](https://discord.gg/S55amqV) 👋
 
 
 ## Available Features
@@ -36,7 +36,7 @@ dependencies:
 
 ## Usage example
 
-The Feather package must be initialized with your project's API key, available on the [Feather Dashboard](https://feather.id/dashboard). Include the API key when you use the plugin.
+The Feather plugin must be initialized with your project's API key, available on the [Feather Dashboard](https://feather.id/dashboard).
 
 Add the following imports to your Dart code:
 ```dart
@@ -44,7 +44,7 @@ import 'package:feather_client_flutter/feather_client_flutter.dart';
 ```
 Initialize `FeatherClient` :
 ```dart
-Final FeatherClient featherClient = FeatherClient(apiKey: "YOUR_API_KEY");
+FeatherClient featherClient = FeatherClient(apiKey: "YOUR_API_KEY");
 ```
 To sign in:
 
